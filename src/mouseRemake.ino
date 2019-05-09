@@ -2,7 +2,7 @@
 #include <Mouse.h> //import a librarie for the mouse clicking.
 #include <Keyboard.h> //import a librarie for the Keyboard press's.
 
-const byte key1Pin = (0); //used for keystrokes like W,A,S or D.
+const byte key1Pin = (0); //used for keystrokes like 1,2 or 3.
 const byte key2Pin = (1);
 const byte key3Pin = (2);
 
@@ -16,15 +16,15 @@ const byte onPin = (6);
 const int pinListKeys [3] = {key1Pin,key2Pin,key3Pin}; 
 const int doListKeys [3] = {49,50,51};
 
-const short int standerdRandomNumber;
+const short int standerdRandomNumber = 0;
 const short int standardMax = (78);
 const short int standardMin =(55);
 
-const short int fastRandomNumber;
+const short int fastRandomNumber = 0;
 const short int fastMax = (55);
 const short int fastMin =(33);
 
-const short int slowRandomNumber;
+const short int slowRandomNumber = 0;
 const short int slowMax = (78);
 const short int slowMin =(85);
 
