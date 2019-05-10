@@ -16,15 +16,15 @@ const byte onPin = (6);
 const int pinListKeys [3] = {key1Pin,key2Pin,key3Pin}; 
 const int doListKeys [3] = {49,50,51};
 
-const short int standerdRandomNumber = 0;
+short int standerdRandomNumber = 0;
 const short int standardMax = (78);
 const short int standardMin =(55);
 
-const short int fastRandomNumber = 0;
+short int fastRandomNumber = 0;
 const short int fastMax = (55);
 const short int fastMin =(33);
 
-const short int slowRandomNumber = 0;
+short int slowRandomNumber = 0;
 const short int slowMax = (78);
 const short int slowMin =(85);
 
